@@ -41,3 +41,11 @@ go version go1.15.2 linux/amd64
 14. you can update new app for command update version in bot golang via uploading new app into drobox
 
 note: folder in drobox > golang
+
+
+
+##REGISTER IP ADRESS
+
+1. open folder registip
+
+2. run script `python3 registip.py`
