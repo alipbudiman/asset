@@ -1,4 +1,4 @@
-##INSTRUCTION
+# INSTRUCTION
 
 
 
@@ -44,7 +44,10 @@ note: folder in drobox > golang
 
 
 
-##REGISTER IP ADRESS
+
+
+
+# REGISTER IP ADRESS
 
 1. open folder registip
 
