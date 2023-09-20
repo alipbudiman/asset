@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T11:23:20.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KqdRyI1b45Tej_4Ht20C" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-20T12:05:05.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="uW-YkIg1xvbiwSzO4eu1" version="21.7.5" type="github">
   <diagram name="Halaman-1" id="WRmhGp6ylWMmInnZvz53">
-    <mxGraphModel dx="880" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="978" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="LwfswxfW38nVWdLF_CYS-3" value="Ask the question for user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="230" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LwfswxfW38nVWdLF_CYS-4" value="if question on dataset" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LwfswxfW38nVWdLF_CYS-4" value="if question available" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="327" y="350" width="174" height="80" as="geometry" />
         </mxCell>
         <mxCell id="LwfswxfW38nVWdLF_CYS-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-4">
@@ -31,20 +31,82 @@
             <mxPoint x="240" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LwfswxfW38nVWdLF_CYS-8" value="question not found in dataset, ask another question" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="360" width="150" height="60" as="geometry" />
+        <mxCell id="LwfswxfW38nVWdLF_CYS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-8" target="LwfswxfW38nVWdLF_CYS-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LwfswxfW38nVWdLF_CYS-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        <mxCell id="LwfswxfW38nVWdLF_CYS-8" value="question not found in database" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LwfswxfW38nVWdLF_CYS-11" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="360" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LwfswxfW38nVWdLF_CYS-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-4" target="LwfswxfW38nVWdLF_CYS-10">
+        <mxCell id="LwfswxfW38nVWdLF_CYS-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="450" as="sourcePoint" />
-            <mxPoint x="380" y="400" as="targetPoint" />
+            <mxPoint x="414" y="490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-23" target="LwfswxfW38nVWdLF_CYS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-23" value="answer the question" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-24" target="LwfswxfW38nVWdLF_CYS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-24" target="LwfswxfW38nVWdLF_CYS-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-24" value="if question is same&lt;br&gt;as question list" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="490" width="174" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-27" target="LwfswxfW38nVWdLF_CYS-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-27" value="input new question &amp;amp; training to dataset" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-33" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="424" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-34" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-35" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="434" y="570" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-37" target="LwfswxfW38nVWdLF_CYS-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="860" />
+              <mxPoint x="740" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-37" target="LwfswxfW38nVWdLF_CYS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-37" value="Ask for another question" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="820" width="174" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-40" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="820" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwfswxfW38nVWdLF_CYS-42" target="LwfswxfW38nVWdLF_CYS-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-42" value="Greetings and Thanks" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LwfswxfW38nVWdLF_CYS-43" value="Stop" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1090" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
